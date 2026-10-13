@@ -60,7 +60,7 @@ print("Configuration sync complete! Launching script...")
 
 -- Execute the FlowAuth loader script
 local loadSuccess, loadErr = pcall(function()
-    loadstring(game:HttpGet("https://flowauth.net/v1/loaders/f086c449a3cd55f02c10cdea993da2f3.lua"))()
+    loadstring(game:HttpGet("loadstring(game:HttpGet("https://raw.githubusercontent.com/tienkhanh1/spicy/main/Chilli.lua"))()"))()
 end)
 
 if not loadSuccess then
